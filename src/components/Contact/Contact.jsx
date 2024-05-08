@@ -35,7 +35,7 @@ const Contact = () => {
     const channel = new DiscordWebhook(import.meta.env.VITE_WEBHOOK_URL);
     await channel
       .execute({
-        content: `<@882481863661342770> New Email Here`,
+        content: `<@1220939384875126867> New Email Here`,
         embeds: [
           {
             author: {
